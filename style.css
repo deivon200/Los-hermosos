@@ -1,0 +1,11 @@
+body{
+	background-color: orange
+
+}
+.cuadro{
+	width: 400px;
+	height: 350px;
+	border-radius: 5px;
+	background-color: white;
+padding-left: 25px;
+}
