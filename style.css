@@ -4,8 +4,8 @@ body{
 }
 .cuadro{
 
-	width: 400px;
-	height: 250px;
+	width: 250px;
+	height: 320px;
 	border-radius: 5px;
 	background-color: white;
     padding-left: 25px;
@@ -15,21 +15,22 @@ body{
 }
 
 .cuadro2{
-	width: 400px;
-	height: 200px;
+	width: 150px;
+	height: 150px;
 	border-radius: 5px;
 	background-color: black;
     padding-left: 15px;
     position: absolute;
-    right: 100px;
+    right: 750px;
     top: 115px;
+    
 
 }
 
 .cuadro3{
 
-	width: 400px;
-	height: 250px;
+	width: 42%;
+	height: 150px;
 	border-radius: 5px;
 	background-color: white;
     padding-left: 25px;
@@ -40,12 +41,12 @@ body{
 
 .cuadro4{
 
-	width: 400px;
-	height: 250px;
+	width: 150px;
+	height: 150px;
 	border-radius: 5px;
 	background-color: white;
-    padding-left: 25px;
+    padding-left: 15px;
        position: absolute;
-    bottom: 10px;
-    right: 100px;
+    bottom: 200px;
+    right: 750px;
 }    
