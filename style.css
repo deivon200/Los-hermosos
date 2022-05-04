@@ -3,10 +3,21 @@ body{
 
 }
 .cuadro{
-	
+
 	width: 400px;
-	height: 350px;
+	height: 250px;
 	border-radius: 5px;
 	background-color: white;
-padding-left: 25px;
+    padding-left: 25px;
+}
+
+.cuadro2{
+	width: 400px;
+	height: 200px;
+	border-radius: 5px;
+	background-color: black;
+    padding-left: 15px;
+    position: absolute;
+    right: 100px;
+    top: 115px;
 }
