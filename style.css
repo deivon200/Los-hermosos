@@ -5,7 +5,7 @@ body{
 .cuadro{
 
 	width: 250px;
-	height: 320px;
+	height: 80px;
 	border-radius: 5px;
 	background-color: white;
     padding-left: 25px;
@@ -41,8 +41,8 @@ body{
 
 .cuadro4{
 
-	width: 150px;
-	height: 150px;
+	width: 130px;
+	height: 180px;
 	border-radius: 5px;
 	background-color: white;
     padding-left: 15px;
@@ -50,3 +50,17 @@ body{
     bottom: 200px;
     right: 750px;
 }    
+.body{
+	font font-family: 'Denk One', sans-serif;
+}
+div	{
+	position: relative;
+}
+video{
+	position: center;
+	top: 0;
+	left: 0;
+	width: 88%;
+	height: 98%;
+	object-fit: cover;
+}	
