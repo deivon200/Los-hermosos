@@ -1,14 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Pagina de los hermosos</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js""></script>
+    <title>VILLANOS</title>
 </head>
-<link rel="stylesheet" type="text/css" href="./style.css">
 <body>
-	<h1> Integrantes:</h1>
-  <li> David Josmar Flores Sisniega</li>
-  <li>Osmar Esau Bautista Fuentes</li>
-  <li> Victor Gabriel Salazar Osornio</li>
-  <li> Jose Omar Silva Mendez</li>
+    <header>VILLANOS</header>
+    <nav>Nav</nav>
+    <aside>
+        <div>
+           <table id="table">
+               <tr>
+                   <th>NOMBRE REAL:</th>
+                   <th>ALIAS:</th>
+                   <th>LUGAR DE NACIMIENTO:</th>
+                   <th>PRIMERA APARICION:</th>
+               </tr>
+               <script> 
+                $(document).ready(function(){
+                    $.getJSON("villanosvictor.json", function(data){
+                        var villanos='';
+                        $each(data, function(key,value){
+                            villanos+='<td>';
+                            villanos+='<td>' +value.NOMBRE + '</td>';
+                            villanos+='<td>' +value.ALIAS + '</td>';
+                            villanos+='<td>' +value.LNACIMIENTO + '</td>';
+                            villanos+='<td>' +value.PARICION + '</td>';
+                            villanos+='</td>';
+                        });
+                        $('#table').append(villanos)
+                    });
+                });
+               </script>
+           </table>
+        </div>
+    </aside>
+    <section>Section
+    <article>Article1</article>
+    <article>Article2</article>
+    <article>Article3</article>
+    </section>
+    <footer>footer</footer>
 </body>
 </html>
